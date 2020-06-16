@@ -1,16 +1,13 @@
 const { Router } = require("express");
-const MunicipioController = require("./controller/municipiosController");
+const municipioController = require("./controller/municipiosController");
+const usersController = require("./controller/usersController");
 const routes = Router();
 
-routes.get("/users", (req, res) => {
-  res.json("userts");
-});
+routes.get("/users", usersController.getUsers);
+routes.post("/users", usersController.store);
 
-routes.post("/users", (req, res) => {
-  res.json("userts");
-});
-
-routes.get("/municipio", MunicipioController.getMunicipio);
-routes.get("/create/municipio", MunicipioController.createMunicipios);
+routes.get("/municipio", municipioController.getMunicipio);
+routes.get("/municipio/user", municipioController.getMunicipioUser);
+routes.get("/create/municipio", municipioController.createMunicipios);
 
 module.exports = routes;

@@ -1,5 +1,5 @@
 const Municipio = require("../models/municipios");
-
+const User = require("../models/users");
 const csv = require("csv-parser");
 const fs = require("fs");
 var iconv = require("iconv-lite");
@@ -17,12 +17,51 @@ function removeAcento(text) {
 
 module.exports = {
   async getMunicipio(request, response) {
+    const longitude = request.query.longitude;
+    const latitude = request.query.latitude;
+
     const result = await Municipio.findOne({
       location: {
         $near: {
           $geometry: {
             type: "Point",
-            coordinates: [-43.9370259, -19.8616386],
+            coordinates: [longitude, latitude],
+          },
+        },
+      },
+    });
+    return response.json(result);
+  },
+
+  async getMunicipioUser(request, response) {
+    const user = request.query.user;
+
+    if (user === "") {
+      response.json("Obrigatorio passasr params user").status(400);
+    }
+
+    let user_result;
+    try {
+      user_result = await User.find({
+        user,
+      });
+    } catch (error) {
+      response.json(error).status(500);
+    }
+
+    if (!user_result) {
+      response.json("Usuario nao encontrado").status(400);
+    }
+
+    const longitude = user_result[0].location["coordinates"][0],
+      latitude = user_result[0].location["coordinates"][1];
+    console.log(longitude);
+    const result = await Municipio.findOne({
+      location: {
+        $nearSphere: {
+          $geometry: {
+            type: "Point",
+            coordinates: [longitude, latitude],
           },
         },
       },
@@ -36,7 +75,16 @@ module.exports = {
 
     fs.createReadStream("./scripts/notificacoes-covid19-mg.csv")
       .pipe(iconv.decodeStream("ISO-8859-1"))
-      .pipe(csv({ separator: ";" }, { headers: false }))
+      .pipe(
+        csv(
+          {
+            separator: ";",
+          },
+          {
+            headers: false,
+          }
+        )
+      )
       .on("data", (row) => {
         row["MUNICIPIO_RESIDENCIA"] = removeAcento(
           row["MUNICIPIO_RESIDENCIA"].trim()
@@ -46,7 +94,16 @@ module.exports = {
       .on("end", () => {
         fs.createReadStream("./scripts/latitude_longitude_municipios.csv")
           .pipe(iconv.decodeStream("ISO-8859-1"))
-          .pipe(csv({ separator: "," }, { headers: false }))
+          .pipe(
+            csv(
+              {
+                separator: ",",
+              },
+              {
+                headers: false,
+              }
+            )
+          )
           .on("data", (row) => {
             results_latitude.push(row);
           })
