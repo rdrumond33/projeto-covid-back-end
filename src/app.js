@@ -3,7 +3,6 @@ const mongoose  = require("mongoose")
 //** middalewares */
 const morgan = require("morgan");
 const cors = require("cors");
-
 // Routes
 const routes = require('./routes')
 class App {
@@ -17,10 +16,11 @@ class App {
     this.database();
   }
   database(){
-      mongoose.connect("mongodb+srv://projetoCovidBackEnd:projetoCovidBackEnd@cluster0-jumdx.mongodb.net/covid?retryWrites=true&w=majority",{
+      mongoose.connect("mongodb://mongo-db-covid/covid",{
         useUnifiedTopology: true,
-        useNewUrlParser: true
-      })
+        useNewUrlParser: true,
+        useCreateIndex: true,
+      }) 
   }
   setting() {
     this.app.set("PORT", this.port || process.env.PORT || 3000);

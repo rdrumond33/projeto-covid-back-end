@@ -1,0 +1,703 @@
+[
+  {
+    municipio: 'Ipatinga',
+    cod_municipio: '313130',
+    covid: {
+      confirmados: 690,
+      recuperados: 395,
+      acompanhamento: 279,
+      obito: 16
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Divinópolis',
+    cod_municipio: '312230',
+    covid: {
+      confirmados: 252,
+      recuperados: 198,
+      acompanhamento: 51,
+      obito: 3
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Juiz de Fora',
+    cod_municipio: '313670',
+    covid: {
+      confirmados: 880,
+      recuperados: 560,
+      acompanhamento: 282,
+      obito: 38
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Patrocínio',
+    cod_municipio: '314810',
+    covid: { confirmados: 40, recuperados: 23, acompanhamento: 15, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Belo Horizonte',
+    cod_municipio: '310620',
+    covid: {
+      confirmados: 3486,
+      recuperados: 1758,
+      acompanhamento: 1661,
+      obito: 67
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Coronel Fabriciano',
+    cod_municipio: '311940',
+    covid: {
+      confirmados: 239,
+      recuperados: 95,
+      acompanhamento: 143,
+      obito: 1
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Nova Lima',
+    cod_municipio: '314480',
+    covid: {
+      confirmados: 313,
+      recuperados: 152,
+      acompanhamento: 160,
+      obito: 1
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Sete Lagoas',
+    cod_municipio: '316720',
+    covid: { confirmados: 44, recuperados: 25, acompanhamento: 18, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Uberlândia',
+    cod_municipio: '317020',
+    covid: {
+      confirmados: 2174,
+      recuperados: 1724,
+      acompanhamento: 412,
+      obito: 38
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Uberaba',
+    cod_municipio: '317010',
+    covid: {
+      confirmados: 383,
+      recuperados: 188,
+      acompanhamento: 181,
+      obito: 14
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Mariana',
+    cod_municipio: '314000',
+    covid: {
+      confirmados: 465,
+      recuperados: 214,
+      acompanhamento: 242,
+      obito: 9
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Poços de Caldas',
+    cod_municipio: '315180',
+    covid: { confirmados: 94, recuperados: 72, acompanhamento: 18, obito: 4 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Contagem',
+    cod_municipio: '311860',
+    covid: {
+      confirmados: 672,
+      recuperados: 234,
+      acompanhamento: 417,
+      obito: 21
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Betim',
+    cod_municipio: '310670',
+    covid: {
+      confirmados: 396,
+      recuperados: 115,
+      acompanhamento: 266,
+      obito: 15
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Timóteo',
+    cod_municipio: '316870',
+    covid: { confirmados: 96, recuperados: 52, acompanhamento: 41, obito: 3 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Lagoa da Prata',
+    cod_municipio: '313720',
+    covid: { confirmados: 167, recuperados: 90, acompanhamento: 76, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Campos Altos',
+    cod_municipio: '311150',
+    covid: { confirmados: 14, recuperados: 3, acompanhamento: 11, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Bom Despacho',
+    cod_municipio: '310740',
+    covid: { confirmados: 36, recuperados: 10, acompanhamento: 25, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Pará de Minas',
+    cod_municipio: '314710',
+    covid: { confirmados: 37, recuperados: 15, acompanhamento: 22, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Governador Valadares',
+    cod_municipio: '312770',
+    covid: {
+      confirmados: 390,
+      recuperados: 184,
+      acompanhamento: 196,
+      obito: 10
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Gouveia',
+    cod_municipio: '312760',
+    covid: { confirmados: 0, recuperados: 0, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Boa Esperança',
+    cod_municipio: '310710',
+    covid: { confirmados: 35, recuperados: 26, acompanhamento: 7, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Guimarânia',
+    cod_municipio: '312890',
+    covid: { confirmados: 1, recuperados: 1, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Sabará',
+    cod_municipio: '315670',
+    covid: { confirmados: 89, recuperados: 28, acompanhamento: 61, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Campo Belo',
+    cod_municipio: '311120',
+    covid: { confirmados: 31, recuperados: 17, acompanhamento: 12, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Carmo do Cajuru',
+    cod_municipio: '311420',
+    covid: { confirmados: 52, recuperados: 39, acompanhamento: 11, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Santa Luzia',
+    cod_municipio: '315780',
+    covid: { confirmados: 142, recuperados: 45, acompanhamento: 95, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Ribeirão das Neves',
+    cod_municipio: '315460',
+    covid: {
+      confirmados: 193,
+      recuperados: 84,
+      acompanhamento: 106,
+      obito: 3
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Extrema',
+    cod_municipio: '312510',
+    covid: {
+      confirmados: 223,
+      recuperados: 82,
+      acompanhamento: 137,
+      obito: 4
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Arcos',
+    cod_municipio: '310420',
+    covid: { confirmados: 24, recuperados: 22, acompanhamento: 2, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Muriaé',
+    cod_municipio: '314390',
+    covid: {
+      confirmados: 358,
+      recuperados: 151,
+      acompanhamento: 196,
+      obito: 11
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Serra do Salitre',
+    cod_municipio: '316680',
+    covid: { confirmados: 58, recuperados: 2, acompanhamento: 56, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Manhuaçu',
+    cod_municipio: '313940',
+    covid: { confirmados: 58, recuperados: 26, acompanhamento: 29, obito: 3 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Unaí',
+    cod_municipio: '317040',
+    covid: {
+      confirmados: 245,
+      recuperados: 56,
+      acompanhamento: 189,
+      obito: 0
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Alfenas',
+    cod_municipio: '310160',
+    covid: { confirmados: 17, recuperados: 15, acompanhamento: 2, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Capitólio',
+    cod_municipio: '311280',
+    covid: { confirmados: 1, recuperados: 0, acompanhamento: 0, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Santo Antônio do Monte',
+    cod_municipio: '316040',
+    covid: { confirmados: 27, recuperados: 23, acompanhamento: 4, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Lavras',
+    cod_municipio: '313820',
+    covid: { confirmados: 38, recuperados: 14, acompanhamento: 20, obito: 4 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Pouso Alegre',
+    cod_municipio: '315250',
+    covid: {
+      confirmados: 188,
+      recuperados: 126,
+      acompanhamento: 58,
+      obito: 4
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Araguari',
+    cod_municipio: '310350',
+    covid: { confirmados: 77, recuperados: 60, acompanhamento: 16, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Barbacena',
+    cod_municipio: '310560',
+    covid: {
+      confirmados: 314,
+      recuperados: 274,
+      acompanhamento: 36,
+      obito: 4
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Toledo',
+    cod_municipio: '316910',
+    covid: { confirmados: 15, recuperados: 12, acompanhamento: 1, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Santana do Paraíso',
+    cod_municipio: '315895',
+    covid: { confirmados: 123, recuperados: 38, acompanhamento: 82, obito: 3 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Esmeraldas',
+    cod_municipio: '312410',
+    covid: { confirmados: 43, recuperados: 13, acompanhamento: 30, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Itabira',
+    cod_municipio: '313170',
+    covid: {
+      confirmados: 454,
+      recuperados: 287,
+      acompanhamento: 166,
+      obito: 1
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Sarzedo',
+    cod_municipio: '316553',
+    covid: { confirmados: 40, recuperados: 16, acompanhamento: 24, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Patos de Minas',
+    cod_municipio: '314800',
+    covid: { confirmados: 147, recuperados: 57, acompanhamento: 89, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Varginha',
+    cod_municipio: '317070',
+    covid: { confirmados: 104, recuperados: 65, acompanhamento: 35, obito: 4 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Carmo da Cachoeira',
+    cod_municipio: '311390',
+    covid: { confirmados: 3, recuperados: 0, acompanhamento: 3, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Nanuque',
+    cod_municipio: '314430',
+    covid: { confirmados: 22, recuperados: 8, acompanhamento: 13, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Centralina',
+    cod_municipio: '311580',
+    covid: { confirmados: 25, recuperados: 16, acompanhamento: 9, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Paraisópolis',
+    cod_municipio: '314730',
+    covid: { confirmados: 11, recuperados: 6, acompanhamento: 1, obito: 4 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Vazante',
+    cod_municipio: '317100',
+    covid: { confirmados: 46, recuperados: 46, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Janaúba',
+    cod_municipio: '313510',
+    covid: { confirmados: 121, recuperados: 49, acompanhamento: 70, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Paracatu',
+    cod_municipio: '314700',
+    covid: {
+      confirmados: 192,
+      recuperados: 41,
+      acompanhamento: 150,
+      obito: 1
+    },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Piumhi',
+    cod_municipio: '315150',
+    covid: { confirmados: 4, recuperados: 1, acompanhamento: 3, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Senador Amaral',
+    cod_municipio: '316557',
+    covid: { confirmados: 6, recuperados: 6, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Matozinhos',
+    cod_municipio: '314110',
+    covid: { confirmados: 30, recuperados: 10, acompanhamento: 20, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Montes Claros',
+    cod_municipio: '314330',
+    covid: { confirmados: 115, recuperados: 71, acompanhamento: 42, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Divinésia',
+    cod_municipio: '312190',
+    covid: { confirmados: 0, recuperados: 0, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Ubá',
+    cod_municipio: '316990',
+    covid: { confirmados: 85, recuperados: 64, acompanhamento: 19, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Frutal',
+    cod_municipio: '312710',
+    covid: { confirmados: 22, recuperados: 9, acompanhamento: 12, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Machado',
+    cod_municipio: '313900',
+    covid: { confirmados: 13, recuperados: 1, acompanhamento: 12, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Guaranésia',
+    cod_municipio: '312830',
+    covid: { confirmados: 0, recuperados: 0, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Cambuí',
+    cod_municipio: '311060',
+    covid: { confirmados: 40, recuperados: 33, acompanhamento: 7, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Jeceaba',
+    cod_municipio: '313540',
+    covid: { confirmados: 2, recuperados: 2, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Ouro Fino',
+    cod_municipio: '314600',
+    covid: { confirmados: 15, recuperados: 10, acompanhamento: 5, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Botelhos',
+    cod_municipio: '310840',
+    covid: { confirmados: 5, recuperados: 3, acompanhamento: 1, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Brumadinho',
+    cod_municipio: '310900',
+    covid: { confirmados: 70, recuperados: 19, acompanhamento: 51, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Itapeva',
+    cod_municipio: '313360',
+    covid: { confirmados: 14, recuperados: 7, acompanhamento: 5, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Alpercata',
+    cod_municipio: '310180',
+    covid: { confirmados: 3, recuperados: 1, acompanhamento: 2, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Carangola',
+    cod_municipio: '311330',
+    covid: { confirmados: 109, recuperados: 89, acompanhamento: 18, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'São João Nepomuceno',
+    cod_municipio: '316290',
+    covid: { confirmados: 11, recuperados: 6, acompanhamento: 4, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Ipaba',
+    cod_municipio: '313115',
+    covid: { confirmados: 23, recuperados: 6, acompanhamento: 16, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Itapecerica',
+    cod_municipio: '313350',
+    covid: { confirmados: 14, recuperados: 14, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Itanhandu',
+    cod_municipio: '313310',
+    covid: { confirmados: 32, recuperados: 30, acompanhamento: 2, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'João Monlevade',
+    cod_municipio: '313620',
+    covid: { confirmados: 109, recuperados: 55, acompanhamento: 54, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Mário Campos',
+    cod_municipio: '314015',
+    covid: { confirmados: 31, recuperados: 18, acompanhamento: 12, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Santa Maria de Itabira',
+    cod_municipio: '315800',
+    covid: { confirmados: 7, recuperados: 2, acompanhamento: 5, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Borda da Mata',
+    cod_municipio: '310830',
+    covid: { confirmados: 3, recuperados: 3, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Ipiaçu',
+    cod_municipio: '313140',
+    covid: { confirmados: 3, recuperados: 0, acompanhamento: 3, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'São Lourenço',
+    cod_municipio: '316370',
+    covid: { confirmados: 43, recuperados: 28, acompanhamento: 14, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Pirapora',
+    cod_municipio: '315120',
+    covid: { confirmados: 42, recuperados: 18, acompanhamento: 23, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Itajubá',
+    cod_municipio: '313240',
+    covid: { confirmados: 54, recuperados: 36, acompanhamento: 16, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Monte Carmelo',
+    cod_municipio: '314310',
+    covid: { confirmados: 7, recuperados: 6, acompanhamento: 1, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Jaboticatubas',
+    cod_municipio: '313460',
+    covid: { confirmados: 116, recuperados: 98, acompanhamento: 17, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Ferros',
+    cod_municipio: '312590',
+    covid: { confirmados: 6, recuperados: 6, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'São Gotardo',
+    cod_municipio: '316210',
+    covid: { confirmados: 13, recuperados: 9, acompanhamento: 4, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Ipuiúna',
+    cod_municipio: '313150',
+    covid: { confirmados: 0, recuperados: 0, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'São Brás do Suaçuí',
+    cod_municipio: '316090',
+    covid: { confirmados: 1, recuperados: 1, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Cambuquira',
+    cod_municipio: '311070',
+    covid: { confirmados: 2, recuperados: 1, acompanhamento: 1, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Ituiutaba',
+    cod_municipio: '313420',
+    covid: { confirmados: 32, recuperados: 19, acompanhamento: 11, obito: 2 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Ibirité',
+    cod_municipio: '312980',
+    covid: { confirmados: 86, recuperados: 42, acompanhamento: 43, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Conceição das Alagoas',
+    cod_municipio: '311730',
+    covid: { confirmados: 9, recuperados: 1, acompanhamento: 8, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Abaeté',
+    cod_municipio: '310020',
+    covid: { confirmados: 0, recuperados: 0, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Perdões',
+    cod_municipio: '314990',
+    covid: { confirmados: 9, recuperados: 9, acompanhamento: 0, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Campos Gerais',
+    cod_municipio: '311160',
+    covid: { confirmados: 5, recuperados: 3, acompanhamento: 2, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Bonfim',
+    cod_municipio: '310810',
+    covid: { confirmados: 5, recuperados: 0, acompanhamento: 5, obito: 0 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Nova Serrana',
+    cod_municipio: '314520',
+    covid: { confirmados: 26, recuperados: 22, acompanhamento: 3, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  {
+    municipio: 'Pirapetinga',
+    cod_municipio: '315110',
+    covid: { confirmados: 26, recuperados: 15, acompanhamento: 10, obito: 1 },
+    location: { type: 'Point', coordinates: [Array] }
+  },
+  ... 473 more items
+]
