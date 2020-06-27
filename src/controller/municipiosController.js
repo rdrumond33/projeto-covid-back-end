@@ -33,6 +33,11 @@ module.exports = {
     return response.json(result);
   },
 
+  async getMunicipios(request, response) {
+    const result = await Municipio.find();
+    return response.json(result);
+  },
+
   async getMunicipioUser(request, response) {
     const user = request.query.user;
 
@@ -68,6 +73,46 @@ module.exports = {
     });
     return response.json(result);
   },
+
+  async getMunicipiosUser(request, response) {
+    const user = request.query.user;
+
+    if (user === "") {
+      response.json("Obrigatorio passasr params user").status(400);
+    }
+
+    let user_result;
+    try {
+      user_result = await User.find({
+        user,
+      });
+    } catch (error) {
+      response.json(error).status(500);
+    }
+
+    if (!user_result) {
+      response.json("Usuario nao encontrado").status(400);
+    }
+
+    const longitude = user_result[0].location["coordinates"][0],
+      latitude = user_result[0].location["coordinates"][1];
+
+    const user_municipio = await Municipio.findOne({
+      location: {
+        $nearSphere: {
+          $geometry: {
+            type: "Point",
+            coordinates: [longitude, latitude],
+          },
+        },
+      },
+    });
+
+    const municipios = await Municipio.find();
+
+    return response.json({user_municipio,municipios});
+  },
+
 
   createMunicipios(request, response) {
     const results = [];

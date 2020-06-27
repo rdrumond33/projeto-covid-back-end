@@ -16,12 +16,13 @@ class App {
     this.database();
   }
   database(){
-      mongoose.connect("mongodb://mongo-db-covid/covid",{
+      mongoose.connect("mongodb+srv://covid123:covid123@cluster0-jumdx.mongodb.net/<dbname>?retryWrites=true&w=majority      ",{
         useUnifiedTopology: true,
         useNewUrlParser: true,
         useCreateIndex: true,
       }) 
   }
+
   setting() {
     this.app.set("PORT", this.port || process.env.PORT || 3000);
   }

@@ -43,6 +43,7 @@ module.exports = {
       response.json("Obrigatorio passasr params user").status(400);
     }
     let user_result, result;
+
     try {
       user_result = await User.find({
         user,
@@ -54,27 +55,29 @@ module.exports = {
     if (!user_result) {
       response.json("data:Usuario nao encontrado").status(400);
     }
+
     const longitude = user_result[0].location["coordinates"][0],
       latitude = user_result[0].location["coordinates"][1];
     try {
       result = await User.find({
-        doadora: {
-          $eq: true,
-        },
+        $and:[{doadora: {$eq: true}},{user: {$ne: user}}],
         location: {
           $near: {
             $geometry: {
               type: "Point",
               coordinates: [longitude, latitude],
             },
-            $maxDistance: isNaN(distance) ? 10000 : distance,
+            $maxDistance: isNaN(distance) ? 20000 : distance,
           },
         },
       });
     } catch (error) {
       response.json(error).status(500);
     }
-    response.json(result).status(200);
+    
+
+
+    response.json({user:user_result,stores:result}).status(200);
   },
 
   async getUsersEmpresas(request, response) {

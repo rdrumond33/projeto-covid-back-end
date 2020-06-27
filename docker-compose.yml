@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.3'
 services:
     back-end-covid:
         build: .
@@ -17,4 +17,11 @@ services:
         restart: always
         ports:
             - 27017:27017
-        
+    front-end:
+        build: ./FrontReact
+        ports: 
+            - 3000:3000
+        volumes:
+            - .:/app
+        links: 
+            - back-end-covid
